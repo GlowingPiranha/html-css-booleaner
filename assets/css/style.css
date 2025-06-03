@@ -64,3 +64,97 @@ header {
 .yellow {
   background-color: yellow;
 }
+
+.tim1 {
+  font-size: 10px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.th1 {
+  text-align: left;
+  width: 250px;
+  color: white;
+  background-color: rgb(44, 149, 247);
+}
+
+.th2 {
+  text-align: left;
+  color: white;
+  background-color: rgb(44, 149, 247);
+}
+
+th,
+td {
+
+  border: 1px #ddd;
+
+}
+
+th {
+  background-color: #add8e6;
+}
+
+.td1 {
+  height: 50px;
+  background-color: #add8e6;
+}
+
+.td2 {
+  height: 50px;
+}
+
+h3 {
+  color: gray;
+}
+
+#image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-style: ;
+  color: white;
+}
+
+
+#image-container2 {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay-text2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  font-style: ;
+  color: white;
+}
