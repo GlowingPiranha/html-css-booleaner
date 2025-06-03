@@ -9,7 +9,8 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 40px;
   margin-top: 10px;
-  margin-bottom: auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 
 }
 
@@ -22,16 +23,11 @@ header {
 
 #header-box {
   height: 120px;
-  display: block;
   left: auto;
   right: auto;
 
 }
 
-#head {
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
 
 
@@ -44,27 +40,27 @@ header {
 }
 
 
-
-
-.p1 {
-  margin-top: 0%;
-  font-size: 20px;
-  color: gray;
-  text-align: inline;
-
-
+.container {
+  padding: 10px;
+  margin: auto;
 }
 
-b {
-  color: rgb(59, 179, 216);
+.p1 {
+  font-size: 24px;
+  color: gray;
+}
+
+.p1 a {
+  color: #0033cc;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .p2 {
-  margin: 0;
-  font-size: 10px;
+  font-size: 20px;
+  color: gray;
 }
 
-
-.tim1 {
-  margin: auto;
+.yellow {
+  background-color: yellow;
 }
