@@ -1,19 +1,19 @@
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
 
 }
 
 h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
+  font-size: 2.8rem;
   margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 
 }
 
+/* header */
 
 header {
   background-color: rgb(44, 149, 247);
@@ -29,37 +29,38 @@ header {
 }
 
 
-
-
 .header1 {
   padding-top: 40px;
-
+  padding-left: 20px;
   width: 250px;
   justify-content: left;
-  align-content: last baseline;
+
+}
+
+/*main*/
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
-.container {
-  padding: 10px;
-  margin: auto;
-}
 
-.p1 {
-  font-size: 24px;
-  color: gray;
-}
 
-.p1 a {
-  color: #0033cc;
-  text-decoration: none;
+div#top .p1 {
+  color: #878787;
   font-size: 24px;
 }
 
-.p2 {
-  font-size: 20px;
-  color: gray;
+div#top .p1 .p15 {
+  color: rgb(39, 42, 230);
 }
+
+div#top .p1 .p2 {
+  color: #878787;
+}
+
+/*section li*/
 
 .yellow {
   background-color: yellow;
@@ -73,6 +74,7 @@ ul {
   margin-top: 10px;
 }
 
+/* table*/
 table {
   width: 100%;
   border-collapse: collapse;
@@ -114,6 +116,13 @@ th {
 
 h3 {
   color: gray;
+}
+
+/* footer*/
+
+footer {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #image-container {
